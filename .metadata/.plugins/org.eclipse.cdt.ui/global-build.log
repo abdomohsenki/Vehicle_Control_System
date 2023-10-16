@@ -1,0 +1,89 @@
+Info: Nothing to build for controlsystem
+20:24:45 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+..\src\controlsystem.c: In function 'turn_on':
+..\src\controlsystem.c:100:3: warning: implicit declaration of function 'display' [-Wimplicit-function-declaration]
+   display(&speed,&Rtemp,&etemp);
+   ^~~~~~~
+..\src\controlsystem.c: At top level:
+..\src\controlsystem.c:114:6: warning: conflicting types for 'display'
+ void display(int**s,int **rt,int**en){
+      ^~~~~~~
+..\src\controlsystem.c:100:3: note: previous implicit declaration of 'display' was here
+   display(&speed,&Rtemp,&etemp);
+   ^~~~~~~
+gcc -o controlsystem.exe "src\\controlsystem.o" 
+20:26:28 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+gcc -o controlsystem.exe "src\\controlsystem.o" 
+Info: Nothing to build for controlsystem
+Info: Nothing to build for controlsystem
+20:35:57 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+gcc -o controlsystem.exe "src\\controlsystem.o" 
+20:37:32 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+..\src\controlsystem.c: In function 'display':
+..\src\controlsystem.c:99:17: error: lvalue required as left operand of assignment
+   if(Ec==OFF&&Ec=ON){
+                 ^
+20:37:42 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+gcc -o controlsystem.exe "src\\controlsystem.o" 
+20:38:32 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+gcc -o controlsystem.exe "src\\controlsystem.o" 
+20:40:18 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+..\src\controlsystem.c: In function 'display':
+..\src\controlsystem.c:99:19: error: lvalue required as left operand of assignment
+   if(Ec==OFF || Ec=ON){
+                   ^
+20:40:25 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+gcc -o controlsystem.exe "src\\controlsystem.o" 
+Info: Nothing to build for controlsystem
+20:43:16 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+gcc -o controlsystem.exe "src\\controlsystem.o" 
+20:53:13 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+gcc -o controlsystem.exe "src\\controlsystem.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file controlsystem.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:53:21 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -o controlsystem.exe "src\\controlsystem.o" 
+Info: Nothing to build for controlsystem
+20:55:38 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+gcc -o controlsystem.exe "src\\controlsystem.o" 
+Info: Nothing to build for controlsystem
+Info: Nothing to build for controlsystem
+23:40:14 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+gcc -o controlsystem.exe "src\\controlsystem.o" 
+14:25:10 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+gcc -o controlsystem.exe "src\\controlsystem.o" 
+14:26:32 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+gcc -o controlsystem.exe "src\\controlsystem.o" 
+14:28:23 **** Incremental Build of configuration Debug for project controlsystem ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controlsystem.o" "..\\src\\controlsystem.c" 
+gcc -o controlsystem.exe "src\\controlsystem.o" 
